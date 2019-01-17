@@ -13,5 +13,10 @@ function alfabetoMilitar(str){
     if (str == "u")
     return ("uniform")
     else 
-    return ("false")
+    return false
 }
+
+
+
+
+
