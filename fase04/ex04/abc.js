@@ -1,5 +1,3 @@
-
-
 function abc(str){
     str = str.toLowerCase()
     var x = str.slice(0,1)
@@ -7,7 +5,9 @@ function abc(str){
         return "true"
     }
     else {
-        return "false"
+        return false
     }
 }
+
+
 
