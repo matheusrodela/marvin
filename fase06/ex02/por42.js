@@ -1,14 +1,11 @@
 
 
+function por42(n1, n2) {
+x = (Math.ceil(n1/42))*42 + 42
 
-function por42(x,y){
-    x= (Math.ceil(x/42)+1)*42
-    
-    if (x<=y){
+    if(x<=n2)
         return x
-    }
-    else{
-        console.log ("Não encontrado")
+    else
+        console.log("Não encontrado")
         return false
-    }
 }
