@@ -3,6 +3,8 @@
 function primo(x){
     
     y=[]
+    if (x < 0){
+    x = x*-1}
     
     for (i=0;i<=x;i++){
         if (Number.isInteger(x/i))
