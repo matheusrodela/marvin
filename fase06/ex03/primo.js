@@ -4,7 +4,7 @@ function primo(x){
     
     y=[]
     
-    for (i=0;i<x;i++){
+    for (i=0;i<=x;i++){
         if (Number.isInteger(x/i))
         y.push(i)
     }
