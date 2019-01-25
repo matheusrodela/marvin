@@ -12,8 +12,8 @@ function primo(x){
         y.push(i)
     }
     if (y.length>2)
-        return "Nâo"
-    else if (x==1 || x==0)
+        return "Não"
+    else if (x==1 || x===0)
         return "Não"
     else
         return "Sim"
