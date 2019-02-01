@@ -1,6 +1,6 @@
 
 
 function eu (){
-    var x = {name: "Marvin", idade: 42}
+    var x = {nome: "Marvin", idade: 42}
     return x
 }
